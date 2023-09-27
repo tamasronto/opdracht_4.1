@@ -33,10 +33,32 @@ a {
 }
 
 header {
-  width: 100vw;
+  width: 100vw; 
+  min-height: 33vh; 
+  background-image: url('img/maxresdefault.jpg'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  color: white; 
+  text-align: center; 
+  padding: 50px 0; 
 }
 
-header {
-  min-height: calc(33.33vh);
+header h1,
+header p {
+  color: #faf60b; 
 }
 
+img {
+  width: 50vw; 
+}
+
+
+article {
+  border: 2px solid #333333; 
+  border-radius: 10px; 
+  border-left-width: 5px;  
+  border-left-color: #FF5733; 
+  margin: 20px; 
+  padding: 10px; 
+}
